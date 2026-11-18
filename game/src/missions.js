@@ -43,7 +43,7 @@ export const MISSIONS = [
   {
     title: 'The Long Way Home',
     contact: 'Mara Voss',
-    intro: 'Last job, Leo. A courier van is waiting at the spotlight tower — no, the docks. Get there in 100 seconds with the whole city behind you, and we are done. Do not get caught.',
+    intro: 'Last job, Leo. Get to the spotlight tower on the east side, then run for the docks — 100 seconds, the whole city behind you. Do not get caught.',
     steps: [
       { type: 'goto', x: SPOTLIGHT.x, z: SPOTLIGHT.z, radius: 6, label: 'Reach the spotlight tower' },
       { type: 'timedGoto', x: DOCKS.x, z: DOCKS.z, radius: 8, seconds: 100, label: 'Getaway to the docks — beat the clock' },
